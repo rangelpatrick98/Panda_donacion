@@ -1,0 +1,67 @@
+body
+{
+ margin: 0;
+ padding: 0;
+ background-image: url('panda.jpg');
+ background-size:100%;
+background-attachment: fixed;
+ 
+}
+section
+
+.box
+{
+    position:center;
+    max-width: 700px;
+    padding:100px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+}
+.box h2
+{
+    margin: 0px;
+    padding: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000000
+}
+.box p
+{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: black;
+    font-family: Helvetica;
+}
+
+#menu{
+    margin:0;
+    padding: 0;
+    background-color: black;
+    opacity: .70;
+    
+}
+#menu li{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+
+#menu li a{
+text-decoration: none;
+position: relative;
+color: white;
+font-size: 15px;
+font-weight: 00;
+font-family: sans-serif;
+display: block;
+overflow: hidden;
+transition: 0.7s all;
+padding: 14px 20px;
+text-transform: uppercase;
+} 
+
+#menu li a:hover{
+    background-color: rgb(93, 192, 89);
+   }
